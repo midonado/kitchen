@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 32">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: gray;
+      }
+
+      .cls-3 {
+        fill: #0d1f0f;
+      }
+
+      .cls-4 {
+        fill: #dd8a3e;
+      }
+
+      .cls-5 {
+        fill: silver;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #fc9;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <polygon class="cls-6" points="25 7 25 30 3 30 3 1 20 1 20 7 25 7"/>
+        <polygon class="cls-5" points="26 7 26 31 3 31 3 30 25 30 25 7 26 7"/>
+        <g>
+          <polygon class="cls-1" points="26 6 26 5 25 5 25 6 21 6 21 7 26 7 26 31 2 31 2 32 27 32 27 6 26 6"/>
+          <rect class="cls-1" x="24" y="4" width="1" height="1"/>
+          <rect class="cls-1" x="23" y="3" width="1" height="1"/>
+          <rect class="cls-1" x="22" y="2" width="1" height="1"/>
+          <rect class="cls-1" x="21" y="1" width="1" height="1"/>
+        </g>
+        <rect class="cls-5" x="25" y="7" width="1" height="24"/>
+        <g>
+          <polygon class="cls-2" points="21 2 21 0 2 0 2 31 3 31 3 1 20 1 20 7 21 7 21 3 22 3 22 2 21 2"/>
+          <rect class="cls-2" x="22" y="3" width="1" height="1"/>
+          <rect class="cls-2" x="23" y="4" width="1" height="1"/>
+          <rect class="cls-2" x="24" y="5" width="1" height="1"/>
+        </g>
+        <g>
+          <rect class="cls-5" x="21" y="3" width="1" height="1"/>
+          <rect class="cls-5" x="22" y="4" width="1" height="1"/>
+          <rect class="cls-5" x="23" y="5" width="1" height="1"/>
+        </g>
+        <polygon class="cls-6" points="22 5 22 4 21 4 21 5 21 6 22 6 23 6 23 5 22 5"/>
+      </g>
+      <g>
+        <rect class="cls-5" x="13" y="13" width="1" height="15"/>
+        <rect class="cls-7" x="4" y="13" width="6" height="15"/>
+        <rect class="cls-4" x="3" y="13" width="1" height="15"/>
+        <path class="cls-3" d="M0,13v15h3v-15H0ZM2,27h-1v-1h1v1ZM2,24h-1v-1h1v1ZM2,21h-1v-1h1v1ZM2,18h-1v-1h1v1ZM2,15h-1v-1h1v1Z"/>
+        <path class="cls-3" d="M10,13v15h3v-15h-3ZM12,27h-1v-1h1v1ZM12,24h-1v-1h1v1ZM12,21h-1v-1h1v1ZM12,18h-1v-1h1v1ZM12,15h-1v-1h1v1Z"/>
+        <rect class="cls-3" x="2" y="14" width="8" height="1"/>
+        <rect class="cls-3" x="2" y="18" width="8" height="1"/>
+        <rect class="cls-3" x="2" y="22" width="8" height="1"/>
+        <rect class="cls-3" x="2" y="26" width="8" height="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

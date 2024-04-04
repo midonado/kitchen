@@ -1,0 +1,108 @@
+.audio__wrapper {
+  min-width: 18rem;
+}
+
+.audio__controls {
+  display: flex;
+  margin-block-start: 0.25rem;
+  gap: 0.25rem;
+}
+
+.audio__controls--volume {
+  display: flex;
+  gap: 0.25rem;
+  margin-left: 3rem;
+}
+
+.audio__progress-bar {
+  margin-block: 0.25rem 0.5rem;
+}
+
+.audio__data {
+  margin-block-end: 1.75rem;
+
+  p {
+    margin: 0
+  }
+
+  p+p {
+    margin-block-start: 0.5rem;
+  }
+}
+
+.audio__time {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  p {
+    margin-block: 0;
+  }
+}
+
+@-moz-document url-prefix() {
+  .audio__progress-bar {
+    position: relative;
+    height: auto;
+  }
+
+  .audio__progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 5.5px;
+    left: 2.5px;
+    height: calc(0.5rem - 1px);
+    width: calc(var(--progress-width) * 100%);
+    background-color: #1084d0;
+    border-radius: 100vh;
+  }
+
+  .input[name="progress"] {
+    display: block;
+    position: static;
+  }
+}
+
+input[name="progress"] {
+  position: relative;
+}
+
+input[name="progress"]::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: calc(var(--progress-width) * 100%);
+  background-color: #1084d0;
+  border-radius: 100vh;
+}
+
+.title-bar-controls button[aria-label=Close]:disabled {
+  background-image: url('/close-disabled.svg');
+  background-size: 55%;
+  cursor: default;
+}
+
+/***** Track Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[name="progress"]::-webkit-slider-runnable-track {
+  background-color: silver;
+  height: 0.5rem;
+  border-radius: 100vh;
+}
+
+/******** Firefox ********/
+input[name="progress"]::-moz-range-track {
+  background-color: silver;
+  height: 0.5rem;
+  border-radius: 100vh;
+}
+
+input[name="progress"]::-moz-range-thumb {
+  background: none;
+}
+
+input[name="progress"]::-webkit-slider-thumb {
+  background: none;
+}

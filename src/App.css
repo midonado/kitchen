@@ -1,0 +1,139 @@
+:root {
+  --progress-width: 0;
+  --buffered-width: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  height: 100dvh;
+  height: 100vh;
+}
+
+.card {
+  width: 30rem;
+}
+
+#root {
+  padding-block: 1rem;
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.icon__button {
+  box-shadow: none;
+  display: flex;
+  padding: 0.15em 0;
+  border: 1px solid transparent;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: transparent;
+  width: 6.5rem;
+  font-family: "Pixelated MS Sans Serif", Arial;
+}
+
+.icon__image-wrapper {
+  height: 3rem;
+  aspect-ratio: 1;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.icon__image {
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.icon__label-wrapper {
+  line-height: 1.2;
+  padding-bottom: 0.25em;
+}
+
+.icon__label {
+  font-size: 14px;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  margin: 0;
+  word-break: break-word;
+}
+
+.icon__button:focus,
+.icon__button:not(:disabled):active {
+  outline: transparent;
+  text-shadow: none;
+  box-shadow: none;
+
+  .icon__image-wrapper {
+    background-color: var(--clr--gray);
+  }
+
+  .icon__label {
+    background-color: #0065E1;
+    color: white;
+  }
+}
+
+.icon__button:disabled .icon__image,
+.icon__button[disabled] .icon__image {
+  opacity: 0.5;
+  filter: saturate(0);
+}
+
+.icon__button:disabled:hover,
+.icon__button[disabled]:hover {
+  border-color: transparent;
+  cursor: not-allowed;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: -5px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin-bottom: -5px;
+}
+
+.link--btn {
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  color: transparent;
+  text-shadow: 0 0 #222222;
+  background: #c0c0c0;
+  box-shadow: inset -1px -1px #0a0a0a,
+    inset 1px 1px white, inset -2px -2px #808080,
+    inset 2px 2px #dfdfdf;
+  border-radius: 0;
+
+  min-width: 75px;
+  min-height: 23px;
+  padding: 0 12px;
+
+  width: fit-content;
+  line-height: 1;
+}
+
+.link--btn:hover {
+  color: transparent;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
