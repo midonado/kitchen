@@ -411,12 +411,12 @@ function App() {
               Thank you for listening.
             </p>
             <p>
-              Sign up below to receive e-mail updates about the Kitchen Project,
+              Stay up to date with the Kitchen Project,
               or return to Eliette's story.
             </p>
 
             <div className="buttons">
-              <a href="" className="link--btn">Link to Form</a>
+              <a href="https://kitchen.arielurimchung.com" className="link--btn">Kitchen Project</a>
               <button onClick={() => { closeFileWindow(alertFinal.id) }} >Back to Eliette</button>
             </div>
           </>
